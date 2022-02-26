@@ -2,14 +2,11 @@ import time
 import pandas as pd
 import numpy as np
 
-
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
-
-
 
 def get_filters():
     """
@@ -187,6 +184,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+
 def display_data(df):
     """Displays raw data if the user's answer is yes."""
     pd.set_option('display.max_columns',200)
@@ -196,6 +194,7 @@ def display_data(df):
         print(df.iloc[start_loc:start_loc+5])
         start_loc += 5
         view_data = input("Do you wish to continue?: ").lower()
+
 
 def main():
     while True:
