@@ -7,7 +7,7 @@ README.md: 2/25/2022
 ### Bikeshare Project
 
 ### Description
-This bikeshare program let's users explore the bikeshare data for the following three cities: Washington, Chicago, New York City. Once the city to analyze is selected, users can filter the results by month, day of the week, or both. The output results include the most frequent times of travel, the most popular stations and trip, statistics on the total and average trip duration, and bikeshare user statistics. Users can also view the underlying raw data if desired.
+This bikeshare program is an interactive interface that let's users explore the bikeshare data for the following three cities: Washington, Chicago, New York City. Once the city to analyze is selected, users can filter the results by month, day of the week, or both. The output results include the most frequent times of travel, the most popular stations and trip, statistics on the total and average trip duration, and bikeshare user statistics. Users can also view the underlying raw data if desired.
 
 ### Files used
 chicago.csv<br />
